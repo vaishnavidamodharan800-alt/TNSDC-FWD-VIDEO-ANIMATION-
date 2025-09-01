@@ -1,0 +1,159 @@
+body {
+
+  margin: 0;
+
+  font-family: 'Segoe UI', sans-serif;
+
+  background-color: #111;
+
+  color: #fff;
+
+}
+
+header {
+
+  background: linear-gradient(to right, #ff4e50, #f9d423);
+
+  padding: 2rem;
+
+  text-align: center;
+
+}
+
+header h1 {
+
+  margin: 0;
+
+  font-size: 2.5rem;
+
+}
+
+nav {
+
+  background-color: #222;
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 2rem;
+
+  padding: 1rem;
+
+}
+
+nav a {
+
+  color: #f9d423;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+}
+
+section {
+
+  padding: 2rem;
+
+}
+
+.project {
+
+  background-color: #1e1e1e;
+
+  margin-bottom: 2rem;
+
+  padding: 1rem;
+
+  border-radius: 8px;
+
+  transition: transform 0.3s ease;
+
+}
+
+.project:hover {
+
+  transform: scale(1.02);
+
+}
+
+.project h2 {
+
+  color: #ff4e50;
+
+}
+
+.tools {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 1rem;
+
+}
+
+.tool {
+
+  background-color: #333;
+
+  padding: 0.5rem 1rem;
+
+  border-radius: 5px;
+
+}
+
+.video-gallery {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  gap: 2rem;
+
+  margin-top: 2rem;
+
+}
+
+.video-card {
+
+  background-color: #1e1e1e;
+
+  padding: 1rem;
+
+  border-radius: 10px;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  text-align: center;
+
+}
+
+.video-card:hover {
+
+  transform: scale(1.03);
+
+  box-shadow: 0 0 15px rgba(255, 78, 80, 0.6);
+
+}
+
+.video-card video {
+
+  width: 100%;
+
+  border-radius: 8px;
+
+}
+
+footer {
+
+  text-align: center;
+
+  padding: 1rem;
+
+  background-color: #222;
+
+  color: #aaa;
+
+}
